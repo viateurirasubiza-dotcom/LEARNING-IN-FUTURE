@@ -154,3 +154,20 @@ footer{
     }
 
 }
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode header{
+    background:#000;
+}
+
+.dark-mode .card{
+    background:#1e1e1e;
+    color:white;
+}
+
+.dark-mode .hero{
+    background:#1a1a1a;
+}
