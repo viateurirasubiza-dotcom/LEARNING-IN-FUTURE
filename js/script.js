@@ -30,3 +30,26 @@ function searchLesson() {
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
+function searchLesson() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
+
+    switch(input) {
+        case "p1":
+            window.location.href = "classes/p1.html";
+            break;
+        case "p2":
+            window.location.href = "classes/p2.html";
+            break;
+        case "math":
+            window.location.href = "classes/p1.html";
+            break;
+        case "english":
+            window.location.href = "classes/p1.html";
+            break;
+        case "kinyarwanda":
+            window.location.href = "classes/p1.html";
+            break;
+        default:
+            alert("Nta somo ribonetse");
+    }
+}
